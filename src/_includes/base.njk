@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/style.css">
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer src="/netlify-cms.js"></script>
 </head>
 
-<body>
-    {% include 'header.njk' %}
-    <main>
-    {{ content | safe}}
-    {% include 'footer.njk' %}
-    </main>
+{# if things break, move the code from netlify-cms.js here #}
+</script>
 </body>
 </html>
