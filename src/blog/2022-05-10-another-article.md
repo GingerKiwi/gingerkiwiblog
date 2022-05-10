@@ -1,6 +1,7 @@
 ---
 title: Another Article
 author: Elizabeth McCready
+date: 2022-05-10
 tags: ["post", "featured"]
 image: /assets/blog/article-4.jpg
 imageAlt: This is a test
